@@ -1,0 +1,299 @@
+/* Custom CSS for extra polish */
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+
+      .tagline {
+        font-size: 15px;
+        color: #333;
+        font-weight: 500;
+        text-align: center;
+        color: #a41f23;
+      }
+.timeline{
+  font-size: 13px;
+  color: #666;
+  font-weight: 400;
+
+}
+      .phone-top a {
+        text-decoration: none;
+        color: #d9534f;
+      }
+.phone-top h3{
+  font-weight: 700;
+}
+      .account-login .btn {
+        
+        padding: 7px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: inline-block;
+  color: #520002;
+  font-weight: 400;
+      }
+
+      /* Responsive tweaks */
+      @media (max-width: 990px) {
+        .tagline {
+          font-size: 14px;
+        }
+        .phone-top h3 {
+          font-size: 18px;
+        }
+        .timeline p {
+          font-size: 12px;
+        }
+      }
+
+      @media (max-width: 768px) {
+       
+        .phone-top h3{
+          font-size: 16px;
+          
+        }
+        
+        .account-login {
+          text-align: center;
+          margin-top: 10px;
+        }
+        img {
+          max-width: 140px;
+          height: auto;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .row.align-items-center {
+          flex-direction: column;
+          text-align: center;
+        }
+        .col-lg-2,
+        .col-lg-3 {
+          margin-bottom: 10px;
+        }
+      }
+.bg-brightsun{
+ background-color: #af2226;
+
+}
+.header-area{
+  border-bottom: 2px  solid #f9a01b;
+}
+.arousel-control-prev-icon{
+  background-color: #333;
+}
+
+
+   .top-nav {
+  background-color: #a51d1f; /* red bar color */
+  padding: 0 30px;
+  height: 40px;
+  
+}
+
+.top-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 0 7px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.top-nav .nav-link i {
+  font-size: 14px;
+}
+
+.business-travel {
+  background-color: #222; /* black background */
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  height: 32px; /* same height as navbar */
+  white-space: nowrap;
+}
+
+.business-travel img {
+  width: 60px;
+  height: auto;
+  vertical-align: middle;
+}
+.info-section {
+  background-color: #f9f9f9;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  padding: 18px 22px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.info-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.info-box .icon {
+  font-size: 28px;
+  color: #f5a623; /* bright yellow-orange */
+  min-width: 35px;
+}
+
+.info-box p {
+  margin: 0;
+  font-size: 15px;
+  color: #333;
+}
+
+.info-box strong {
+  color: #001b44; /* dark blue text */
+}
+
+@media (max-width: 768px) {
+  .info-box {
+    text-align: left;
+    padding: 15px;
+  }
+}
+.nav-tabs .nav-link {
+      border: none;
+      font-weight: 600;
+      color: #fff;
+      background: #dc3545;
+      border-radius: 0;
+    }
+    .nav-tabs .nav-link.active {
+      background: #fff;
+      color: #dc3545 !important;
+    }
+    .tab-content {
+      background: #fff;
+      border: 1px solid #eee;
+      border-top: none;
+      padding: 20px;
+    }
+    .btn-warning {
+      background-color: #f9b233;
+      border: none;
+      color: #000;
+      font-weight: bold;
+    }
+    .btn-warning:hover {
+      background-color: #f6a10c;
+    }
+    .input-group-text {
+      background-color: #f8f9fa;
+    }
+  .nav-tabs{
+    position: absolute;
+
+  }
+
+
+
+
+
+ 
+    .bright-boxImage{
+      width: 70px;
+      height: 70px;
+      margin: 0px auto ;
+      background: url(/assets/image/sprite.png) -292px -94px no-repeat;
+background-position: -292px -94px;
+transition: 0.6s;  
+
+  } 
+   .col-lg-4 h3,p{
+    margin-top: 20px;
+    margin-left: 10px;
+   }
+   .col-lg-4 a{
+    text-decoration: none;
+    color: #222;
+   }
+  .easy-booking{
+    background-position: -382px -94px;
+  }
+
+
+.custom-care{
+  background-position: -473px -94px;
+}
+
+.col-lg-4:hover .bright-boxImage{
+background-position: -292px -12px;
+}
+ .col-lg-4:hover .easy-booking{
+background-position: -382px -12px;
+}  
+.col-lg-4:hover .custom-care{
+  background-position: -473px -12px;
+}
+
+.chat-icon{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 65px;
+  height: 65px;
+  background:  #e59300;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 3px 10px black;
+}
+
+.chat-window{
+  display: none;
+  position: fixed;
+  bottom: 110px;
+  right: 30px;
+  width: 320px;
+  background: #e59300;
+  border-radius: 15px;
+  box-shadow: 0px 5px 20px rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+.chat-header{
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  text-align: left;
+}
+
+.chat-card{
+  background: rgb(233, 231, 231);
+  color: #000;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.chat-footer{
+  background: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.chat-footer div{
+  font-size: 24px;
+}
